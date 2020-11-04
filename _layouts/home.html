@@ -10,13 +10,13 @@
         <h2 id="antwoord">Antwoord:</h2>
     </div>
     <div class="vragen" data-current-question=1>
-        <a class="button left" onclick="nextQuestion(this, 'right')"><img src="/img/staf.png" alt=""></a>
+        <a class="button left" onclick="nextQuestion(this, 'right')"><img src="/pieten/img/staf.png" alt=""></a>
 
         {% for item in site.data.vragen.vragen %}
             <span data-question={{ forloop.index }} class="vraag {% if forloop.index == 1 %} active {% endif %}">{{ item.vraag}} </span>
             <span data-question={{ forloop.index }} class="antwoord hide {% if forloop.index == 1 %} active {% endif %}">{{ item.antwoord }}</span>
         {% endfor %}
-        <a class="button right" onclick="nextQuestion(this, 'left')"><img src="/img/staf.png" alt=""></a>
+        <a class="button right" onclick="nextQuestion(this, 'left')"><img src="/pieten/img/staf.png" alt=""></a>
     </div>
 </section>
 
