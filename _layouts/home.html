@@ -1,0 +1,48 @@
+{% include header.html %}
+
+<h1>Ploffende Pieten</h1>
+
+
+
+<section class="vragen">
+    <div class="titels">
+        <h2 id="vraag">Vraag:</h2>
+        <h2 id="antwoord">Antwoord:</h2>
+    </div>
+    <div class="vragen" data-current-question=1>
+        <a class="button left" onclick="nextQuestion(this, 'right')"><img src="/img/staf.png" alt=""></a>
+
+        {% for item in site.data.vragen.vragen %}
+            <span data-question={{ forloop.index }} class="vraag {% if forloop.index == 1 %} active {% endif %}">{{ item.vraag}} </span>
+            <span data-question={{ forloop.index }} class="antwoord hide {% if forloop.index == 1 %} active {% endif %}">{{ item.antwoord }}</span>
+        {% endfor %}
+        <a class="button right" onclick="nextQuestion(this, 'left')"><img src="/img/staf.png" alt=""></a>
+    </div>
+</section>
+
+<section class="antwoord">
+    <div class="buttonbox">
+        <a class="bigbutton" onclick="toonAntwoord(this)">Toon antwoord</a>
+        <a class="bigbutton volgende" onclick="nextQuestion(false, 'left')">Volgende Vraag</a>
+    </div>
+</section>
+
+
+<section class="teams">
+    <h2>teams</h2>
+    <div class="allteams">
+        {% for item in site.data.teams.teams %}
+        <div class="team">
+            <a class="top" onclick="addScore(this)" data-score="0"></a>
+            <span class="score">0</span>
+            <a class="bottom" onclick="subtractScore(this)" class="flip"></a>
+
+            <p>{{ item.team }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+
+
+{% include footer.html %}
