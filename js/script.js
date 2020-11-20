@@ -62,3 +62,9 @@ function subtractScore(el) {
     el.parentNode.querySelector("span").setAttribute("data-score",score);
     el.parentNode.querySelector("span").textContent = score;
 }
+
+function playAudio() {
+    var snd = new Audio("buzzer.mp3");
+    snd.play();
+    snd.currentTime=0;
+}
