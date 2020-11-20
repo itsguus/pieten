@@ -13,7 +13,8 @@
         <a class="button left" onclick="nextQuestion(this, 'right')"><img src="/pieten/img/staf.png" alt=""></a>
 
         {% for item in site.data.vragen.vragen %}
-            <span data-question={{ forloop.index }} class="vraag {% if forloop.index == 1 %} active {% endif %}">{{ item.vraag}} </span>
+        {% assign meerkeuzearray = item.meerkeuze_opties  | split: ", " %}
+            <span data-question={{ forloop.index }} class="vraag {% if forloop.index == 1 %} active {% endif %}">{{ item.vraag}} {% if item.meerkeuze %}<span class="meerkeuze">{% for opt in meerkeuzearray %}<span class="keuze">{{ opt }}</span>{% endfor %}</span>{% endif %}</span>
             <span data-question={{ forloop.index }} class="antwoord hide {% if forloop.index == 1 %} active {% endif %}">{{ item.antwoord }}</span>
         {% endfor %}
         <a class="button right" onclick="nextQuestion(this, 'left')"><img src="/pieten/img/staf.png" alt=""></a>
@@ -32,7 +33,7 @@
     <h2>teams</h2>
     <div class="allteams">
         {% for item in site.data.teams.teams %}
-        <div class="team">
+        <div class="team" data-team="{{ forloop.index }}">
             <a class="top" onclick="addScore(this)" data-score="0"></a>
             <span class="score">0</span>
             <a class="bottom" onclick="subtractScore(this)" class="flip"></a>

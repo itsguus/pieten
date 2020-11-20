@@ -1,8 +1,12 @@
 vragen:
   - vraag: Wat is de hoofdstad van Madagascar?
+    meerkeuze: false
     antwoord: Antananarivo
   - vraag: Wie hebben er allemaal op surfschool gezeten?
+    meerkeuze: false
     antwoord: Tim, Guus en Britt
-  - vraag: Hoe heette het eerste vriendje van Bieke?
-    antwoord: (Deze weet ik niet hahaha maar volgens mij was dat Tim ofzo? Echt een whacko in ieder geval)
+  - vraag: Hoe heette het eerste vriendje van Bieke? 
+    meerkeuze: true
+    meerkeuze_opties: A. Porsche 911 Super special, B. Porsche 911 Americano, C. wat denk je nou zelf
+    antwoord: B. Pietje
   
