@@ -91,15 +91,66 @@ vragen:
   - vraag: Hoe heten de konijnen die we op dit moment hebben?
     antwoord: Beer en Blue
   - vraag: Is Britt in het afglopen jaar met meer vrouwen of mannen naar bed geweest?
-    antwoord: Mannen
     meerkeuze: true
     meerkeuze_opties: A. Mannen, B. Vrouwen, C. Evenveel
+    antwoord: A. Mannen
   - vraag: Bij wie stapt Britt het liefst achterop de fiets?
     meerkeuze: true
     meerkeuze_opties: A. Een moppie zonder zon plan, B. Oma Jopie, C. Leon
-    antwoord: Leon
-  - vraag: 
-    antwoord: 
-  - vraag: 
-    antwoord: 
-  
+    antwoord: C. Leon
+  - vraag: Waar kun je Britt voor wakker maken? 
+    meerkeuze: true
+    meerkeuze_opties: A. Een zacht moppie, B. Surfen, C. Vrede op aarde
+    antwoord: B. Surfen
+  - vraag: Wat vindt Tim het leukste van Corona? 
+    meerkeuze: true
+    meerkeuze_opties: A. De band met zijn huisgenoten, B. Niet meer met de trein naar Den Haag, C. Iedere dag uitslapen
+    antwoord: A. De band met zijn huisgenoten
+  - vraag: Hoeveel dates heeft Tim met Marleen gehad?
+    meerkeuze: true
+    meerkeuze_opties: A. Telt seks ook?, B. Welke Marleen?, C.10 
+    antwoord: C. 10
+  - vraag: Waar kun je Tim voor wakker maken?
+    meerkeuze: true
+    meerkeuze_opties: A. Een telefoongesprek met de Sint, B. Marleen, C. Bitcoin die op 1 ton staat.
+    antwoord: C. Bitcoin die op 1 ton staat
+  - vraag: Wat was de laatste zin die Tim gebruikte bij het gesprek met de Sint?
+    meerkeuze: true 
+    meerkeuze_opties: A. Later Guus, B. Dan moet je je bek houden Sinterklaas, C. Dag lieve Sinterklaas
+    antwoord: B. Dan moet je je bek houden Sinterklaas
+  - vraag: Wat voor ras hond zou Joep willen? 
+    meerkeuze: true 
+    meerkeuze_opties: A. Australische herder, B. Teckel, C. Labradoodle
+    antwoord: A. Australische herder
+  - vraag: Wat gaat Joep kopen van zijn eerste TADA factuur? 
+    meerkeuze: true
+    meerkeuze_opties: A. Twee nieuwe spijkerbroeken, B. De huur, C. Een dikke pizza
+    antwoord: A. Twee nieuwe spijkerbroeken
+  - vraag: Waar kun je Joep voor wakker maken? 
+    meerkeuze: true
+    meerkeuze_opties: A. Een werkende zalf tegen eczeem, B. Een weekendje Jager met de zes, C. Twee mooie borsten
+    antwoord: B. Een weekendje Jager met de zes
+  - vraag: Waar kun je Col voor wakker maken? 
+    meerkeuze: true
+    meerkeuze_opties: A. Het halen van mijn motorrijbewijs, B. Een kopje thee, C. Een kleinkind
+    antwoord: B. Een kopje thee
+  - vraag: Wanneer heeft Col haar motorrijexamen?
+    meerkeuze: true
+    meerkeuze_opties: A. Voor Kerst, B. Na Kerst, C. Volgend jaar
+    antwoord: A. Voor Kerst
+  - vraag: Wat vindt Col het leukste van Corona? 
+    meerkeuze: true 
+    meerkeuze_opties: A. Dat mijn kinderen vaker naar huis komen, B. Dat ik Nederland beter heb leren kennen, C. Dat het lekker rustig is in Amsterdam.
+    antwoord: C. Dat het lekker rustig is in Amsterdam.
+  - vraag: Waar kun je Geert voor wakker maken? 
+    meerkeuze: true
+    meerkeuze_opties: A. Ritje met de Harley, B. Surprise trip naar Spanje, C. Een goeie Whiskey
+    antwoord: C. Een goeie whiskey
+  - vraag: Hoeveel dozen Berberana Red Dragon worden standaard ingeslagen als deze in de bonus is?
+    meerkeuze: true
+    meerkeuze_opties: A. 12 dozen, B. 10 dozen, C. 8 dozen 
+    antwoord: C. 8 dozen
+  - vraag: Wat staat er bij Geert volgend jaar op de planning? 
+    meerkeuze: true
+    meerkeuze_opties: A. Een appartementje in Spanje, B. Een nieuwe Porsche, C. Uitbouw
+    antwoord: A. Een appartement in Spanje
