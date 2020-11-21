@@ -1,12 +1,105 @@
 vragen:
-  - vraag: Wat is de hoofdstad van Madagascar?
-    meerkeuze: false
-    antwoord: Antananarivo
-  - vraag: Wie hebben er allemaal op surfschool gezeten?
-    meerkeuze: false
-    antwoord: Tim, Guus en Britt
-  - vraag: Hoe heette het eerste vriendje van Bieke? 
+  - vraag: Vorig jaar zat het nummer Quando Quando na afloop van sinterklaas in iedereen hoofd. Hoe vaak komt het woord Quando voor in dit nummer?
+    antwoord: 12
+  - vraag: Waar staan de letters van het nieuwe bedrijf van Joep voor?
+    antwoord: The Awesome Digital Agency
+  - vraag: Wat is de volledige naam van de bachelor die Britt dit jaar heeft afgerond? 
+    antwoord: Algemene sociale wetenschappen
+  - vraag: Wat is de volledige naam van de master die Bas dit jaar heeft afgerond?
+    antwoord: Complex Systems Engineering and Management
+  - vraag: Bieke is mede-eigenaar geworden van een siradenmerk. Hoe heet dit bedrijf?
+    antwoord: Abrazi
+  - vraag: Geert werkt al drie jaar bij MPO. Wat is zijn functie eigenlijk?
+    antwoord: Chief Operation Officer
+  - vraag: Hoeveel jaar werkt Col bij Innofa?
+    antwoord: 12 jaar
+  - vraag: Tim is als Trainee bij drie verschillende takken van de overheid geweest. Noem er minstens twee!
+    antwoord: Ministerie Justitie en Veiligheid, Rijksvastgoedbedrijf, NCSC.
+  - vraag: Van welk merk is de racefiets van Tim?
+    antwoord: Duell
+  - vraag: Welke kleur waren de muisjes voor de fiets van Tim? 
+    antwoord: Roze
+  - vraag: Welke kleur waren de muisjes voor de motor van Guus?
+    antwoord: Roze
+  - vraag: Bas brak zijn enkel. Hoeveel schroeven zitten er op dit moment nog in zijn been?
+    antwoord: 2
+  - vraag: Naar welke drie landen zijn we gegaan tijdens de Jagervakantie?
+    antwoord: Italie, Belgie, Frankrijk
+  - vraag: Hoeveel biertjes werden er afgeleverd door de Tjechische biertrein van Nicole en Bas?
+    antwoord: 8
+  - vraag: Tijdens de online quarantaine borrel werden er twee accessoires van de deelnemers verwacht. Welke waren dit?
+    antwoord: Iets oranjes & een hoofddeksel.
+  - vraag: Andrea gaf een cijfer voor de aankleding van het jagerweekend. Welke cijfer gaf zij?
+    antwoord: 10
+  - vraag: Wat is het huisnummer van Bieke d'r woonboot?
+    antwoord: 330W
+  - vraag: In welke straat woont Tim?
+    antwoord: Bethaniëndwarsstraat
+  - vraag: Welke naam staat er op het huis van Bas?
+    antwoord: Joey
+  - vraag: Hoe heet de straat van Andrea?
+    antwoord: Bilderdijkkade
+  - vraag: Welk symbooltje heeft Joep in zijn whatsapp status?
+    antwoord: Lampje
+  - vraag: Wat voor meisje heeft Bieke als whatsapp status?
+    antwoord: Facepalm meisje
+  - vraag: Welk woord heeft Andrea in haar whatsapp status?
+    antwoord: Beschikbaar
+  - vraag: Welke leus (gebaseerd op de Lion King) heeft Britt in haar whatsapp status?
+    antwoord: Hakunamafuckit
+  - vraag: Wat is het automerk van de auto van de Zes?
+    antwoord: Toyota
+  - vraag: Hoe lang duurde het uitnodigingsfilmpje van de sint (je mag er 2 seconden naast zitten)?
+    antwoord: 1 minuut en 6 seconden
+  - vraag: Welke kleur was de rollator die Col had geregeld voor Bas met carnaval?
+    antwoord: Blauw
+  - vraag: In welk jaar is de SINTERKLAASAVOND appgroep gemaakt?
+    antwoord: (11/11/)2018
+  - vraag: In welk jaar is de Japplesingel appgroep gemaakt?
+    antwoord: (27/02/)2012
+  - vraag: Wat is de afkorting voor Ingenieur?
+    antwoord: Ir.
+  - vraag: Tim ging met een vriend van Bas op vakantie. Wat is de achternaam van die knul?
+    antwoord: Deurloo
+  - vraag: Hoe heet de huurbaas van Bieke?
+    antwoord: Colin
+  - vraag: Wat is de achternaam van Andrea?
+    antwoord: Thoonsen
+  - vraag: Hoe heten de drie huisgenoten van Bas?
+    antwoord: Derek. Jasper en Klaas
+  - vraag: Hoe heten de twee huisgenoten van Tim?
+    antwoord: Maurits en Daniel
+  - vraag: Hoe heet de huisgenoot van Britt?
+    antwoord: Laura
+  - vraag: Welke Tesla heeft Geert?
+    antwoord: Model S
+  - vraag: Geert heeft een Porsche 911. Wat is het eigenlijke nummer van dit model?
+    antwoord: Porsche 911 991.1 carrera 4s cabrio
+  - vraag: >- 
+      Vul in: Geert heeft een Harley Davidson ***** Glide Special.
+    antwoord: Harley Davidson Street Glide Special
+  - vraag: Hoeveel nieuwe zwembroeken zaten er in de nieuwe collectie van Mr.Bowmont?
+    antwoord: 10
+  - vraag: Wat is de naam van de zwembroek waar croissantjes, eitjes en kopjes koffie op staan?
+    antwoord: Petit Déjeuner
+  - vraag: Hoe heet de gebaren tolk die bekend werd tijdens de eerste corona piek?
+    antwoord: Irma Sluis
+  - vraag: Hoeveel fietswielen heeft Bas mee naar huis genomen, nadat deze op straat stonden in Britt haar straat?
+    antwoord: 4
+  - vraag: Hoe heet het bedrijf van Guus?
+    antwoord: Monkeyhead
+  - vraag: Hoe heten de konijnen die we op dit moment hebben?
+    antwoord: Beer en Blue
+  - vraag: Is Britt in het afglopen jaar met meer vrouwen of mannen naar bed geweest?
+    antwoord: Mannen
     meerkeuze: true
-    meerkeuze_opties: A. Porsche 911 Super special, B. Porsche 911 Americano, C. wat denk je nou zelf
-    antwoord: B. Pietje
+    meerkeuze_opties: A. Mannen, B. Vrouwen, C. Evenveel
+  - vraag: Bij wie stapt Britt het liefst achterop de fiets?
+    meerkeuze: true
+    meerkeuze_opties: A. Een moppie zonder zon plan, B. Oma Jopie, C. Leon
+    antwoord: Leon
+  - vraag: 
+    antwoord: 
+  - vraag: 
+    antwoord: 
   

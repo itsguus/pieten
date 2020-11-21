@@ -82,6 +82,11 @@ function updateAllData() {
         team4 = localStorage.getItem("team 4"),
         team5 = localStorage.getItem("team 5");
 
+    if(!localStorage.getItem('team 1')) localStorage.setItem('team 1', 0);
+    if(!localStorage.getItem('team 2')) localStorage.setItem('team 2', 0);
+    if(!localStorage.getItem('team 3')) localStorage.setItem('team 3', 0);
+    if(!localStorage.getItem('team 4')) localStorage.setItem('team 4', 0);
+    if(!localStorage.getItem('team 5')) localStorage.setItem('team 5', 0);
 
     var allScores = document.querySelectorAll("section.teams .score"), i;
     allScores[0].textContent = team1;
@@ -97,6 +102,8 @@ function updateAllData() {
 
     var currentQuestion = localStorage.getItem("question"),
      i;
+
+     if(!localStorage.getItem('question')) currentQuestion = 1;
     for (i = 0; i < allQuestions.length; i++) {
         allQuestions[i].classList.remove("active");
         allAnswers[i].classList.remove("active");
