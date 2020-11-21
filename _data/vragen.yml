@@ -154,3 +154,7 @@ vragen:
     meerkeuze: true
     meerkeuze_opties: A. Een appartementje in Spanje, B. Een nieuwe Porsche, C. Uitbouw
     antwoord: A. Een appartement in Spanje
+  - vraag: Wat whatsappte Britt midden in de nacht nog naar de Sint op de avond van de telefonngesprekken?
+    meerkeuze: true
+    meerkeuze_opties: A. Kan ik nog een antwoord veranderen?, B. Ik heb er echt zin in!, C. Sinterklaaaaaaaaaaas ik ben zo dronken
+    antwoord: C. Sinterklaaaaaaaaaaas ik ben zo dronken
