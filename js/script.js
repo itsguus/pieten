@@ -75,25 +75,25 @@ function playAudio() {
 }
 
 function updateAllData() {
-    var currentQ = localStorage.getItem("question"),
-        team1 = localStorage.getItem("team 1"),
-        team2 = localStorage.getItem("team 2"),
-        team3 = localStorage.getItem("team 3"),
-        team4 = localStorage.getItem("team 4"),
-        team5 = localStorage.getItem("team 5");
-
     if(!localStorage.getItem('team 1')) localStorage.setItem('team 1', 0);
     if(!localStorage.getItem('team 2')) localStorage.setItem('team 2', 0);
     if(!localStorage.getItem('team 3')) localStorage.setItem('team 3', 0);
     if(!localStorage.getItem('team 4')) localStorage.setItem('team 4', 0);
     if(!localStorage.getItem('team 5')) localStorage.setItem('team 5', 0);
 
+    var currentQ = localStorage.getItem("question"),
+        team1 = localStorage.getItem("team 1"),
+        team2 = localStorage.getItem("team 2"),
+        team3 = localStorage.getItem("team 3"),
+        team4 = localStorage.getItem("team 4"),
+        team5 = localStorage.getItem("team 5");
     var allScores = document.querySelectorAll("section.teams .score"), i;
     allScores[0].textContent = team1;
     allScores[1].textContent = team2;
     allScores[2].textContent = team3;
     allScores[3].textContent = team4;
     allScores[4].textContent = team5;
+
     allScores[0].setAttribute("data-score", team1);
     allScores[1].setAttribute("data-score", team2);
     allScores[2].setAttribute("data-score", team3);
