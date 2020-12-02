@@ -34,10 +34,10 @@ h4 {font-size: 1.2rem;}
 body { background: url("/pieten/img/background.jpg"); background-size: 8.5rem;}
 
 main{ display: flex; flex-direction: column; align-items: center; margin: 0.8rem 3rem; position: relative;}
-h1 { font-family: "Romanesco"; display: flex; text-align: center; transform: scale(2.5); margin-top: 1rem; color: #000; text-shadow:    1px 1px #FFF;}
+h1 { font-family: "Romanesco"; display: flex; text-align: center; transform: scale(2.5); margin-top: 1rem; color: #000; text-shadow: 1px 1px #FFF;}
 .button.left img { transform: scaleX(-1) scaleY(-1);; display: inline-block;}
 .button img { width: 4rem; transform: scaleY(-1);}
-.button {cursor: pointer; padding: 2rem; display: flex;}
+.button {cursor: pointer; padding: 2rem; display: flex; user-select: none;}
 .button.left:hover { animation: pointleft 1s ease infinite;}
 .button.right:hover { animation: pointright 1s ease infinite;}
 .button {cursor: pointer;}

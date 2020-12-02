@@ -12,7 +12,10 @@
     <div class="vragen" data-current-question=1>
         <a class="button left" onclick="nextQuestion(this, 'right')"><img src="/pieten/img/staf.png" alt=""></a>
 
-        {% for item in site.data.vragen.vragen %}
+
+        {% assign arraySize = site.data.vragen.vragen.size  %}
+        {% assign allQuestions = site.data.vragen.vragen | sample: arraySize %}
+        {% for item in allQuestions %}
         {% assign meerkeuzearray = item.meerkeuze_opties  | split: ", " %}
             <span data-question={{ forloop.index }} class="vraag {% if forloop.index == 1 %} active {% endif %}">{{ item.vraag}} {% if item.meerkeuze %}<span class="meerkeuze">{% for opt in meerkeuzearray %}<span class="keuze">{{ opt }}</span>{% endfor %}</span>{% endif %}</span>
             <span data-question={{ forloop.index }} class="antwoord hide {% if forloop.index == 1 %} active {% endif %}">{{ item.antwoord }}</span>
@@ -20,6 +23,7 @@
         <a class="button right" onclick="nextQuestion(this, 'left')"><img src="/pieten/img/staf.png" alt=""></a>
     </div>
 </section>
+
 
 <section class="antwoord">
     <div class="buttonbox">

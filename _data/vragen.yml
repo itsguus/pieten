@@ -1,5 +1,5 @@
 vragen:
-  - vraag: Vorig jaar zat het nummer Quando Quando na afloop van sinterklaas in iedereen hoofd. Hoe vaak komt het woord Quando voor in dit nummer?
+  - vraag: Vorig jaar zat het nummer Quando Quando na afloop van sinterklaas in iedereens hoofd. Hoe vaak komt het woord Quando voor in dit nummer?
     antwoord: 12
   - vraag: Waar staan de letters van het nieuwe bedrijf van Joep voor?
     antwoord: The Awesome Digital Agency
@@ -66,7 +66,7 @@ vragen:
   - vraag: Wat is de achternaam van Andrea?
     antwoord: Thoonsen
   - vraag: Hoe heten de drie huisgenoten van Bas?
-    antwoord: Derek. Jasper en Klaas
+    antwoord: Derek, Jasper en Klaas
   - vraag: Hoe heten de twee huisgenoten van Tim?
     antwoord: Maurits en Daniel
   - vraag: Hoe heet de huisgenoot van Britt?
@@ -106,13 +106,9 @@ vragen:
     meerkeuze: true
     meerkeuze_opties: A. De band met zijn huisgenoten, B. Niet meer met de trein naar Den Haag, C. Iedere dag uitslapen
     antwoord: A. De band met zijn huisgenoten
-  - vraag: Hoeveel dates heeft Tim met Marleen gehad?
-    meerkeuze: true
-    meerkeuze_opties: A. Telt seks ook?, B. Welke Marleen?, C.10 
-    antwoord: C. 10
   - vraag: Waar kun je Tim voor wakker maken?
     meerkeuze: true
-    meerkeuze_opties: A. Een telefoongesprek met de Sint, B. Marleen, C. Bitcoin die op 1 ton staat.
+    meerkeuze_opties: A. Een telefoongesprek met de Sint, B. Een Spaanse vrouw, C. Bitcoin die op 1 ton staat.
     antwoord: C. Bitcoin die op 1 ton staat
   - vraag: Wat was de laatste zin die Tim gebruikte bij het gesprek met de Sint?
     meerkeuze: true 
@@ -158,3 +154,33 @@ vragen:
     meerkeuze: true
     meerkeuze_opties: A. Kan ik nog een antwoord veranderen?, B. Ik heb er echt zin in!, C. Sinterklaaaaaaaaaaas ik ben zo dronken
     antwoord: C. Sinterklaaaaaaaaaaas ik ben zo dronken
+  - vraag: Wat staat er volgend jaar bij Bieke op de planning?
+    meerkeuze: true
+    meerkeuze_opties: A. School afmaken, B. Ondernemertje spelen, C. Beginnen met haar motorrijbewijs
+    antwoord: B. Ondernemertje spelen
+  - vraag: Hoe oud is Jeske?
+    antwoord: 31
+  - vraag: Waar kun je Bieke voor wakker maken?
+    meerkeuze: true
+    meerkeuze_opties: A. Vers gebakken pannenkoeken met fruit, B. Een goede fles wijn, C. De Abrazi site die af is.
+    antwoord: A. Vers gebakken pannenkoeken met fruit
+  - vraag: Wat vindt Bieke het leukste van Corona?
+    meerkeuze: true
+    meerkeuze_opties: A. Meer spelletjesavonden,  B. Dat het nieuwe kansen en inzichten heeft gegeven in het leven, C. De rust op straat
+    antwoord:  B. Dat het nieuwe kansen en inzichten heeft gegeven in het leven
+  - vraag: Wat staat er bij Andrea volgend jaar op de planning? 
+    meerkeuze: true
+    meerkeuze_opties: A. Afronden van het eerste PhD artikel, B. Op skivakantie gaan, C. Alcohol & Feestjes
+    antwoord:  C. Alcohol & Feestjes
+  - vraag: Waar kunnen we Andrea voor wakker maken?
+    meerkeuze: true
+    meerkeuze_opties: A. Bas, B. Theetje, C. Yoghurt vruchtjes pudding
+    antwoord:  C. Yoghurt vruchtjes pudding
+  - vraag: Wat vindt Andrea het leukste van Corona?
+    meerkeuze: true
+    meerkeuze_opties: A. Meer thuis bier drinken, B. Dat ik mijn huisgenoten beter leer kennen, C. Dat ik meer thuis kan knuffelen met de kat
+    antwoord:  C. Dat ik meer thuis kan knuffelen met de kat
+  - vraag: Wat vindt Andrea het leukste aan Bas?
+    meerkeuze: true
+    meerkeuze_opties: A. Dat hij zoveel piemelkunst maakt, B. Dat hij zo'n allemans vriend is, C. Dat hij op een mopshond lijkt
+    antwoord:  B. Dat hij zo'n allemans vriend is
